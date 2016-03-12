@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fieldsoft.lagrange.SaveFileDialogActivity" >
+        
+	<LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/Return"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:onClick="Return"
+	            android:text="@string/Return" />
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="right" >
+
+		    <Button
+			    android:id="@+id/Cancel"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:onClick="Cancel"
+			    android:text="@string/Cancel" />
+			<Button
+			    android:id="@+id/Enter"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:onClick="Enter"
+			    android:text="@string/Enter" />
+		</LinearLayout>
+
+    </LinearLayout>
+ 
+
+    <LinearLayout
+        android:id="@+id/layout_buttom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+			
+            <EditText
+                android:id="@+id/editFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+	<ListView
+		android:id="@+id/FileList"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentLeft="true"
+        android:layout_below="@id/layout_top" 
+        android:layout_above="@id/layout_buttom">
+	</ListView>
+
+</RelativeLayout>

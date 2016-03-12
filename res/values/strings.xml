@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Lagrange</string>
+    <string name="AddData" translatable="false">添加数据</string>
+    <string name="Exit" translatable="false">退出</string>
+    <string name="Return" translatable="false">返回</string>
+    <string name="Enter" translatable="false">确认</string>
+    <string name="Cancel" translatable="false">取消</string>
+    <string name="Insert" translatable="false">插入</string>
+    <string name="Load" translatable="false">载入</string>
+    <string name="Save" translatable="false">保存</string>
+	<string name="AllSelect" translatable="false">全选</string>
+	<string name="Delete" translatable="false">删除</string>
+	<string name="SaveFile" translatable="false">保存文件</string>
+	<string name="OpenFile" translatable="false">打开文件</string>
+	<string name="Contact" translatable="false">联系我</string>
+	<string name="Help" translatable="false">帮助</string>
+	<string name="Cal" translatable="false">计算</string>
+    <string name="X" translatable="false">X:</string>
+    <string name="Y" translatable="false">Y:</string>
+    
+</resources>

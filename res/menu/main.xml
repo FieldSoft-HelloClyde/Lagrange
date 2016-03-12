@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fieldsoft.lagrange.MainActivity" >
+
+    <item
+        android:id="@+id/MenuAddData"
+        android:orderInCategory="100"
+        android:title="@string/AddData"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/MenuCal"
+        android:orderInCategory="100"
+        android:title="@string/Cal"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/MenuContact"
+        android:orderInCategory="100"
+        android:title="@string/Contact"
+        app:showAsAction="never"/>
+     
+     <item
+        android:id="@+id/MenuHelp"
+        android:orderInCategory="100"
+        android:title="@string/Help"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/MenuExit"
+        android:orderInCategory="100"
+        android:title="@string/Exit"
+        app:showAsAction="never"/>
+
+</menu>
